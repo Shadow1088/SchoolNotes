@@ -1,4 +1,6 @@
-﻿Kdyz na instagram posilame nove storycko, jak to funguje? 
+﻿-> Lukas Jarnot IT2
+
+Kdyz na instagram posilame nove storycko, jak to funguje? 
 
 OSI model (ou es aj)        - je model co nam ma dat nejakou predstavu kdy se co deje.
 * ma SEDM vrstev, neboli cely proces odesilani storycka instagramu by se podle nej rozdelil do SEDM casti
