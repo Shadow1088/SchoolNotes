@@ -26,3 +26,5 @@ enkapsulace je pri odesilani
 dekapsulace je pri prijimani
 
 Protocol = soubor pravidel pro urcity task
+
+ISO = Internation Organisation for Standartization - organizace co vytvorila OSI model
