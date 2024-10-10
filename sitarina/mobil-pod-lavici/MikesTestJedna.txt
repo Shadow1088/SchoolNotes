@@ -1,0 +1,28 @@
+OSI model - pomyslny, ma nam dat predstavu jak co funguje
+
+7․ Aplikacni - s touhle vrstvou komunikuje uzivatel
+6․ Prezentacni - sifruje a kompresuje data
+5․ Relacni - otevira a spravuje relaci, ktera trva celou dobu dokud se neodeslou vsechna data
+4․ Transportni - vybira zpusob jak se data odeslou (jakym protokolem) a jakym portem - SEGMENT
+3․ Sitova - pracuje s IP adresama, vybira logickou cestu po ktere se data odeslou - PACKET
+2․ Linkova - pracuje s MAC adresama, vybira fyzickou cestu po ktere se data odeslou - FRAME
+1․ Fyzicka - konvertuje data na bity a odesila je - BIT
+
+TCP/IP model - v praxi pouzivany, odvozeny z OSI
+
+4. Aplikacni 
+3. Transportni 
+2. Sitova 
+1. Vrstva sitoveho rozhrani 
+
+rozdil mezi nima je v jejich pouziti (jedno je teorie, druhe je praxe) a poctu vrstev
+
+Co je to PDU? Protocol Data Unit - to jsou ty data ktere uzivatel posila plus header z kazde vrstvy
+
+kazda vrstva nase PDU obaluje svym headerem - enkapsulace
+dekapsule - presny opak, kazda vrstva to rozbaluje
+
+enkapsulace je pri odesilani
+dekapsulace je pri prijimani
+
+Protocol = soubor pravidel pro urcity task
